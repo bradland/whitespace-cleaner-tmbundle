@@ -1,4 +1,4 @@
-# TextMate macro for increasing your uber-ness
+# TextMate macro for cleaning whitespace
 
 This macro automatically removes your "diff cruft" with;
 
@@ -12,14 +12,14 @@ Original idea: Christopher R. Murphy : http://blogobaggins.com/2009/03/31/waging
 ## Installation
 
     cd ~/Library/Application\ Support/TextMate/Bundles/
-    git clone git://github.com/glennr/uber-glory-tmbundle.git Uber\ Glory.tmbundle
-    cd Uber\ Glory.tmbundle
+    git clone git://github.com/bradland/whitespace-cleaner-tmbundle.git Whitespace\ Cleaner.tmbundle
+    cd Whitespace\ Cleaner.tmbundle
     git submodule update --init
     osascript -e 'tell app "TextMate" to reload bundles'
 
 ## TODO
 
-   add "All your base are belong to us" reference somewhere.
+   realize that pragmatism > cleverness ;)
 
 ## License
 
